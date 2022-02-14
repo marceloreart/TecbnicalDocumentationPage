@@ -1,0 +1,51 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar{
+    flex: 1;
+}
+
+#navbar header{
+    padding: 1rem 2rem;
+}
+.nav-link{
+    padding-left: 2rem;
+    margin: 2rem;
+}
+
+#separacion{
+    border: 2px solid #999;
+}
+
+#main-doc{
+    flex:3;
+    padding: 2rem;
+}
+
+code{
+    display: block;
+    background-color: #999;
+    margin: 4rem 1rem;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+    }
+}
